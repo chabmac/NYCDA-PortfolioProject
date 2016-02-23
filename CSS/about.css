@@ -1,0 +1,13 @@
+.words {
+	font-family: Helvetica;
+	background-color: grey;
+	margin-left: 50px
+	margin-top: 10px;
+	width: 75%
+	float: left;
+}
+
+.image {
+	margin-right: 50px
+	padding: 15px;
+}
