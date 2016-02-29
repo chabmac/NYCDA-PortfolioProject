@@ -1,0 +1,66 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0c1f3a;
+    border-color: black;
+    margin: 2% 0% 2% 0%
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: Gotham;
+    font-size: 200%
+    text-align: center;
+    padding: 25px 110px;
+    text-decoration: none;
+}
+
+.nav li:hover a:not(.active) {
+    background-color: red;
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+/* Center the page */
+.body {
+    display: block;
+    margin:0 auto;
+    width:576px;
+}
+
+/* Center the form within the page */
+form {
+    margin:0 auto;
+    width:69%;
+}
+
+/* Style the text boxes */
+input, textarea {
+    width:439px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+}
+
+h1 {
+    text-align: center;
+
+}
+/*textarea {
+    height:213px;
+    background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}*/
